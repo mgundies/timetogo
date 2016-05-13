@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TT GO!</title>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css"/>
+  <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"> -->
+  <link rel="stylesheet" href="jquery-ui.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.1/jquery-ui-timepicker-addon.css">
+  <script src="jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.1/jquery-ui-timepicker-addon.js"></script>
+  <script src="jquery.countdown.js"></script>
+  <script src="sc1.js"></script>
+</head>
+<body>
+  <div id="mainContainer" class="mainC">
+    <h1>Time to Go!</h1>
+    <div id="loginBox">
+      <h4 id="loginStatus">Please Login</h4>
+      <span id="results" class="errormess"></span>
+
+      <form name="formSubmit" id="loginForm" action="#">
+          <label class="il">email address:  </label><input id="email" class="ib" name="email" value="" type="email"/><br/>
+          <label class="il">password:  </label><input id="passWord" class="ib" name="passWord" value="" type="password"/><br/>
+          <input class="buttonCl" type="button" onclick="handleSubmit();" value="Login"/>
+
+      </form>
+    </div>
+    </br>
+    <h3 id="listTitle">Upcoming Events</h3>
+
+    <div id='listTimes' class="centerList" >
+      <ul>
+        <li id='t1' class="liT"></li>
+        <li id="timer1" class="liTm"></li>
+        <li id="like1" class="liLk">LIKE<li>
+        <li id='t2' class="liT"></li>
+        <li id="timer2" class="liTm"></li>
+        <li id="like2" class="liLk">LIKE<li>
+        <li id='t3' class="liT"></li>
+        <li id="timer3" class="liTm"></li>
+        <li id="like3" class="liLk">LIKE<li>
+        <li id='t4' class="liT"></li>
+        <li id="timer4" class="liTm"></li>
+        <li id="like4" class="liLk">LIKE<li>
+        <li id='t5' class="liT"></li>
+        <li id="timer5" class="liTm"></li>
+        <li id="like5" class="liLk">LIKE<li>
+
+      </ul>
+    </div>
+
+    <div id="newEventBox">
+      <h4 id="newEventTitle">Create A new event</h4>
+      <form name="eventForm" id="eventForm" action="#">
+        <label class="il">Event name: </label><input id="title" class="ib" name="title" value=""/><br/>
+        <label class="il">Description: </label><input id="description" class="ib" name="description" value=""/><br/>
+        <label class="il">Event time: </label><input id="eventTime" class="ib" name="eventTime" value=""/><br/>
+        <input class="buttonCl" type="button" onclick="handleNewEvent();" value="List Event"/>
+      </form>
+    </div>
+    <!-- <p>Date: <input type="text" id="datepicker"></p> -->
+
+
+    <!-- <div class="chatDiv" id="chatlog">
+      <input type="button" onclick="sendMessage()"/>
+      <input id="message" type="text"/>
+    </div> -->
+  </div>
+</body>
+</html>

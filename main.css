@@ -1,0 +1,114 @@
+/** {
+  background-color: blue;
+}
+
+.chatDiv {
+  border-style: dotted;
+}*/
+
+body {
+    background-image: url("mesh.jpg");
+    z-index: -1;
+    /*background-color: #cccccc;*/
+}
+* {
+  font-family: 'Exo 2', sans-serif;
+  color: yellow;
+}
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+h4 {
+
+  text-align: center;
+}
+.svgbox {
+  min-width: 600px;
+  min-height: 600px;
+}
+
+#listTitle{
+  text-align: center;
+}
+
+.mainC {
+  position: absolute;
+  width: 400px;
+  height: 700px;
+  z-index: 15;
+  top: 40%;
+  left: 50%;
+  margin: -300px 0 0 -200px;
+  border-style: solid;
+  color: blue;
+  opacity: 0.8;
+  background-color: black;
+  /*background: red;*/
+}
+.centerList {
+  width: 380px;
+}
+#loginBox {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#newEventBox {
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+ul {
+  height:280px;
+  width:100%;
+  overflow:hidden;
+  overflow-y:scroll;
+  position:relative;
+}
+
+li {
+  list-style: none;
+}
+
+.liT {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  margin-top: 5px;
+  color: white;
+
+}
+.liTm {
+
+}
+.liLk {
+
+}
+
+.ib {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  min-width: 200px;
+  background-color: blue;
+  color: white;
+  /*text-align: right;
+  margin: 0 0 0 30px;*/
+}
+.il{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+
+}
+
+.buttonCl{
+  margin-top: 10px;
+  background-color: black;
+
+}
