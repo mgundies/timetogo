@@ -10,12 +10,11 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "ejs": "2.4.1",
-    "express": "4.13.3"
+     "mongodb": ">= 3.2.4"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://git.heroku.com/shielded-plateau-83823.git"
   },
   "keywords": [
     "node",
