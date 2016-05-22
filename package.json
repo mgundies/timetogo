@@ -10,7 +10,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-     "mongodb": ">= 3.2.4"
+  
   },
   "repository": {
     "type": "git",
