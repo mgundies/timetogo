@@ -9,7 +9,7 @@ var ObjectId = require('mongodb').ObjectID;
 var allFiles = [
    'index.html'
 ];
-// process.env.PORT || SERVER_PORT
+var port =process.env.PORT || SERVER_PORT
 
 var server = http.createServer( function(req, res) {
   if (req.method.toLowerCase() == 'get') {
@@ -82,7 +82,7 @@ var server = http.createServer( function(req, res) {
       }
   }
 });
-server.listen(SERVER_PORT);
+server.listen(port);
 
 
 
