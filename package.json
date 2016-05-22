@@ -1,0 +1,25 @@
+{
+  "name": "timetogo",
+  "version": "0.0.1",
+  "description": "WDI13 Projcet 4",
+  "engines": {
+    "node": "5.7.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "license": "MIT"
+}

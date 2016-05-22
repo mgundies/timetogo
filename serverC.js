@@ -167,7 +167,6 @@ wsServer.on('request', function(r){
   // });
   connection.on('message', function(message) {
     // The string message that was sent to us
-    console.log("HHHHHHE");
 
     var msgString = message.utf8Data;
     if (msgString.indexOf("__GET__USER__DATA__") >= 0) {
@@ -191,7 +190,6 @@ wsServer.on('request', function(r){
     else {
       // Loop through all clients
       for(var i in clients){
-          console.log("got here???");
           // Send a message to the client with the message
           clients[i].sendUTF(msgString);
       }
